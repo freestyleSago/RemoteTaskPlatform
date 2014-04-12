@@ -83,8 +83,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contract\IModule.cs" />
+    <Compile Include="Core\RemoteTaskApplication.cs" />
+    <Compile Include="Core\RetmoeTaskEventArgs.cs" />
+    <Compile Include="Modules\LogRemoteTaskModule.cs" />
+    <Compile Include="MudoleGenerator.cs" />
+    <Compile Include="ObjectPool.cs" />
     <Compile Include="RemoteTaskBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoteTaskRuntime.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RemoteTaskPlatform.Contract\RemoteTaskPlatform.Contract.csproj">

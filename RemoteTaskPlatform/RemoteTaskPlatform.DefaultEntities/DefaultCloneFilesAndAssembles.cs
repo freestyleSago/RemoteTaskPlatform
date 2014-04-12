@@ -9,7 +9,7 @@ namespace RemoteTaskPlatform.DefaultEntities
 	{
 		private readonly string REMOTETASKSBASEPATH = Path.Combine(AppDomain.CurrentDomain.SetupInformation.ApplicationBase, "REMOTETASKS");
 
-		public string CloneFilesAndAssembles(IRemoteTask remoteTask)
+		public string CloneFilesAndAssembles(IRemoteTaskRequest remoteTask)
 		{
 			var remoteTaskDirectoryPath = Path.Combine(this.REMOTETASKSBASEPATH, remoteTask.RemoteTaskIdentity.ToString());
 			if (!Directory.Exists(remoteTaskDirectoryPath))

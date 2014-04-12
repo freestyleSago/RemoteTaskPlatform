@@ -2,6 +2,6 @@
 {
 	public interface ICloneFilesAndAssembles
 	{
-		string CloneFilesAndAssembles(IRemoteTask remoteTask);
+		string CloneFilesAndAssembles(IRemoteTaskRequest remoteTask);
 	}
 }

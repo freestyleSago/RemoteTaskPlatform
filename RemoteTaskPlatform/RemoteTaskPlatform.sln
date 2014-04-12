@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteTaskPlatform", "Remot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteTaskPlatform.Contract", "RemoteTaskPlatform.Contract\RemoteTaskPlatform.Contract.csproj", "{26A02E9A-377C-40B4-AF15-B1AA9F2822D5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{DFC51F49-EB17-4D6C-B7B3-93C9F010F29D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteTaskPlatform.DefaultEntities", "RemoteTaskPlatform.DefaultEntities\RemoteTaskPlatform.DefaultEntities.csproj", "{5E3CA16E-2CDB-46EF-9F70-8AE9779BCF58}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{6E839DDC-82B4-4E0C-8497-BCBBFFDDD99A}"
@@ -38,8 +36,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{6E839DDC-82B4-4E0C-8497-BCBBFFDDD99A} = {DFC51F49-EB17-4D6C-B7B3-93C9F010F29D}
 	EndGlobalSection
 EndGlobal

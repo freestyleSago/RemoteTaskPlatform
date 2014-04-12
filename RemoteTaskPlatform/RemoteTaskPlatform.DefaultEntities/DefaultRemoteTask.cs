@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace RemoteTaskPlatform.DefaultEntities
 {
-	public class DefaultRemoteTask : IRemoteTask
+	public class DefaultRemoteTask : IRemoteTaskRequest
 	{
 		public ICodeFile CodeFile { get; set; }
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace RemoteTaskPlatform.Contract
 {
-	public interface IRemoteTask
+	public interface IRemoteTaskRequest
 	{
 		ICodeFile CodeFile { get; set; }
 

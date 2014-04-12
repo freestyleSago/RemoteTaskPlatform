@@ -18,7 +18,7 @@ namespace RemoteTaskPlatform
 
 		public ICloneFilesAndAssembles CloneFilesAndAssembles { get; set; }
 
-		public void BuildDynamicAssemble(IRemoteTask remoteTask)
+		public void BuildDynamicAssemble(IRemoteTaskRequest remoteTask)
 		{
 			var filesAndAssemblesDirectoryPath = this.CloneFilesAndAssembles.CloneFilesAndAssembles(remoteTask);
 			var code = string.Empty;
